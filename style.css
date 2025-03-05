@@ -1,0 +1,24 @@
+:root{
+   --imagem-fundo: url("./imgs/por-do-sol01.jpg");
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: var(--imagem-fundo);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    transition: background-image 1s ;
+}
+button{
+    padding: 8px 12px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
